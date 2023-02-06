@@ -15,7 +15,7 @@ export default function remarkToc(options = {}) {
     const result = toc(
       node,
       Object.assign({}, options, {
-        heading: options.heading || 'toc|table[ -]of[ -]contents?'
+        heading: options.heading || 'toc|table[ -]of[ -]contents?|目次'
       })
     )
 
